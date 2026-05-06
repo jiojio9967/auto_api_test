@@ -1,0 +1,4 @@
+
+请求URL  : https://api-test.528btc.com.cn/xhj-gather-app/label/page?page=1&limit=10
+HTTP状态 : 200
+响应内容 : {"data":null,"code":500,"msg":"服务繁忙，请稍后再试"}

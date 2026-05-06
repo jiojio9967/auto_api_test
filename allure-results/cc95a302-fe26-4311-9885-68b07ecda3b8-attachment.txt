@@ -1,0 +1,6 @@
+
+请求URL  : https://api-test.528btc.com.cn/xhj-gather-app/notice/count
+HTTP状态 : 200
+响应内容 : {"data":{"msg":0,"question":0,"comment":0,"like":0},"code":200,"msg":"success"}
+
+返回内容： {"data":{"msg":0,"question":0,"comment":0,"like":0},"code":200,"msg":"success"}

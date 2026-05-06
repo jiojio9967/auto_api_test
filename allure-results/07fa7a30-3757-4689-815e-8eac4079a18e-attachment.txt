@@ -1,0 +1,4 @@
+
+请求URL  : https://api-test.528btc.com.cn/xhj-gather-app/memberActivityReward/queryFreeDrawNoticeUnread
+HTTP状态 : 200
+响应内容 : {"data":false,"code":200,"msg":"success"}

@@ -1,0 +1,11 @@
+
+请求URL  : https://api-test.528btc.com.cn/xh-gather-app/open/etf/page?page=1&limit=5&type=1
+HTTP状态 : 404
+响应内容 : <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>
+

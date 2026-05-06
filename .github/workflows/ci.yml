@@ -1,0 +1,44 @@
+name: Run Tests
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 拉代码
+        uses: actions/checkout@v3
+
+      - name: 安装 Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: 安装依赖
+        run: |
+          pip install pytest allure-pytest
+
+      - name: 安装 Allure
+        run: |
+          sudo apt-get install -y default-jre
+          wget https://github.com/allure-framework/allure2/releases/latest/download/allure-2.27.0.tgz
+          tar -zxvf allure-2.27.0.tgz
+          sudo mv allure-2.27.0 /opt/allure
+          sudo ln -s /opt/allure/bin/allure /usr/bin/allure
+
+      - name: 执行 pytest
+        run: |
+          pytest testcases --alluredir=./allure-results
+
+      - name: 生成报告
+        run: |
+          allure generate ./allure-results -o ./allure-report --clean
+
+      - name: 上传报告
+        uses: actions/upload-artifact@v3
+        with:
+          name: allure-report
+          path: allure-report

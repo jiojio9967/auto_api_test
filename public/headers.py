@@ -6,7 +6,7 @@ def get_headers():
         "Accept": "*/*",
 
         # 👉 直接用你抓到的
-        "authorization": "vlSnpS/XrYjrWZVApxLyHUaLHyjyEg1c1yRWACIsP0iHRTtcqDMqNNECF4c71sbkkVSwa58PW1bwcxFPDDr3FNzeJTNdejqH8cFYMrxId1b7oI3Ec2GDsv/eEWACjuBb",
+        "authorization": "vlSnpS/XrYjrWZVApxLyHb9MJD5Yw1rV8RHF2SUlu86PYUMDqKVbGLnC4Y6LUkNYO5Rfq0PgjV7uP1MpSaQB5Eri0pVLOEzrYAgKmq1LSLDxNK5jyIt8AQnX77FrkVah",
 
         "deviceid": "7C519352-1132-40C3-B9B2-2750D8EFAD11",
         "source": "IOS",

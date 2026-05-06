@@ -1,0 +1,4 @@
+
+请求URL  : https://api-test.528btc.com.cn/xhj-gather-app/currencyNotice/largeStatusAll
+HTTP状态 : 200
+响应内容 : {"data":{"data":{"0":{"flag":0},"1":{"flag":0},"2":{"flag":0},"3":{"flag":0},"4":{"flag":0}}},"code":200,"msg":"success"}
