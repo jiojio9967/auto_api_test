@@ -1,4 +1,0 @@
-
-请求URL  : https://api-test.528btc.com.cn/xhj-gather-app/taskCenter/getBrowseSec
-HTTP状态 : 200
-响应内容 : {"data":{"taskArticleSec":10,"taskVideoSec":30,"taskArticlePoint":200.000000,"taskVideoPoint":500.000000},"code":200,"msg":"success"}

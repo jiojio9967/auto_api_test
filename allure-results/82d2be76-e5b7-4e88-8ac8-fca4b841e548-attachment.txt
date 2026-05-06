@@ -1,4 +1,0 @@
-
-请求URL  : https://api-test.528btc.com.cn/xhj-gather-app/im/group/recommend?page=1&limit=10
-HTTP状态 : 200
-响应内容 : {"data":[{"limit":10,"id":14,"code":"14","logo":"http://img.528btc.com.cn/pro/2023-10-15/img/5985b3442ca61bc782e97ab25cb6b1a0.jpeg","title":"币界网开发测试群","synopsis":"582748524","addType":1,"recommendFlag":1,"bannerCode":"bjwtest","sort":1,"dataStatus":1,"maxNum":20000,"hotFlag":1,"showEnable":1,"robotFlag":1},{"limit":10,"id":15,"code":"15","logo":"http://img.528btc.com.cn/dev/2025-09-16/img/25eb9b72f4db3fbd9207288752e3344e.jpeg","title":"测试","synopsis":"欢迎大家进入这个群","addType":1,"recommendFlag":1,"bannerCode":"hdtest","sort":1,"dataStatus":1,"maxNum":20000,"hotFlag":1,"showEnable":1,"robotFlag":1}],"code":200,"msg":"success"}

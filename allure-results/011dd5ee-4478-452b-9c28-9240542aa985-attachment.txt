@@ -1,4 +1,0 @@
-
-请求URL  : https://api-test.528btc.com.cn/xhj-gather-app/member/info
-HTTP状态 : 200
-响应内容 : {"data":{"id":120554,"nickname":"梭教授说","header":"http://img.528btc.com.cn/pro/2023-05-29/img/1685346494877aj121335529878jj0843300342aah95j.png","memberType":1,"labels":["币圈小白"],"followStatus":false,"mutualFollowStatus":false,"countryCode":"86","mobile":"88888888009","pushEnable":false,"creatorFlag":0,"signState":false,"authorTag":null,"blueFlag":0},"code":200,"msg":"success"}

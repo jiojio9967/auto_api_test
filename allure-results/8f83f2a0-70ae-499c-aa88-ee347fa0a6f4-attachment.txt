@@ -1,4 +1,0 @@
-
-请求URL  : https://api-test.528btc.com.cn/xhj-gather-app/cms/tag/stateless/getTagList
-HTTP状态 : 200
-响应内容 : {"data":[],"code":200,"msg":"success"}

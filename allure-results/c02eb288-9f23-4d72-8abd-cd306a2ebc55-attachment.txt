@@ -1,4 +1,0 @@
-
-请求URL  : https://api-test.528btc.com.cn/xhj-gather-app/chatRecord/getUnreadNum
-HTTP状态 : 200
-响应内容 : {"data":null,"code":200,"msg":"success"}

@@ -1,4 +1,0 @@
-
-请求URL  : https://api-test.528btc.com.cn/xhj-gather-app/memberInvited/statistics
-HTTP状态 : 200
-响应内容 : {"data":{"amount":0,"rate":0.5},"code":200,"msg":"success"}
