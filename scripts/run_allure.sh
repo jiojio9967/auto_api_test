@@ -12,13 +12,12 @@ allure generate ./allure-results -o ./allure-report --clean
 
 echo "测试执行完成"
 echo "Allure 报告已生成"
-echo "报告路径：allure-report/index.html"
+echo "报告目录：allure-report/index.html"
+echo "本地服务即将启动，如果要退出服务，请在终端按 control + C"
 
-echo "打开本地 Allure 报告..."
-if command -v allure >/dev/null 2>&1; then
-    allure open ./allure-report
-elif [[ "$(uname)" == "Darwin" ]]; then
-    open ./allure-report/index.html
-else
-    echo "当前系统未检测到可用的自动打开命令，请手动打开 allure-report/index.html"
+if ! allure open ./allure-report; then
+    echo ""
+    echo "allure open 启动失败，可改用备用命令："
+    echo "    allure serve ./allure-results"
+    exit 1
 fi
